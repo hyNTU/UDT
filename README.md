@@ -37,7 +37,12 @@ To save training time and start validation evaluation later, `--epoch_eval` dete
 ### Example with custom setting
 1. Train GMF on Yelp with different hyperparameter settings:
 ```
-python main.py --dataset yelp --model GMF --userfact1 1.0 --userfact2 0.2 --temp1 0.5 --temp2 2.0 --epoch_eval 30 --gpu=0
+python main.py --dataset yelp --model GMF --userfact1 0.05 --userfact2 0.0 --temp1 0.1 --temp2 0.5 --epoch_eval 30 --gpu=0
+```
+
+2. Train CDAE on Amazon-book with different hyperparameter settings:
+```
+python main_CDAE.py --dataset amazon_book --model CDAE --userfact1 1.0 --userfact2 0.5 --temp1 0.5 --temp2 1.0 --epoch_eval 30 --gpu=0
 ```
 
 
