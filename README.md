@@ -50,5 +50,11 @@ python main_CDAE.py --dataset amazon_book --model CDAE --userfact1 1.0 --userfac
 If you use our code, please kindly cite:
 
 ```
-
+@inproceedings{UDT,
+author = {Chua, Haoyan and Du, Yingpeng and Sun, Zhu and Wang, Ziyan and Zhang, Jie and Ong, Yew-Soon},
+title = {Unified Denoising Training for Recommendation},
+year = {2024},
+booktitle = {Proceedings of the 18th ACM Conference on Recommender Systems (RecSys)},
+pages = {612–621},
+}
 ```
